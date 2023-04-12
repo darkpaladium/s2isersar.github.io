@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+</style>
+
+<head>
+	<title>S2i</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="stylesheets2i.css">
+	<script src="s2i.js"></script>
+
+
+</head>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+</style>
+<!-- <h1>Invegstitation Service for Investement </h1> -->
+<header>
+	<div class="entete">
+		<div class="entete2">
+
+
+			<img src="logo.png" alt="logos2i" width="165px" height="77px">
+			<nav>
+				<ul>
+					<li><a class="animation" href="#services">Services</a></li>
+					<li><a class="animation" href="#about">A propos </a></li>
+					<li><a class="animation" href="#contact">Contact</a></li>
+					<li><a class="animation" href="blog.html">Blog</a></li>
+
+
+
+
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+
+<body>
+	<div class="img">
+	</div>
+
+	<center>
+		<main>
+
+
+			<div class="service">
+
+				<h2 id="services">Services</h2>
+				<div class="cardss">
+
+					<div class="card">
+						<img src="etude-technico.jpg" alt="Card Image">
+						<div class="card-body">
+							<p class="card-title">Prospection et stratégie</p>
+							<p class="card-text">Examination of technology's financial and economic feasibility.</p>
+							<a href="service1.html" class="btn">More informartions</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="etude-technico.jpg" alt="Card Image">
+						<div class="card-body">
+							<p class="card-title">Démarches</p>
+							<p class="card-text">Process of applying and securing bank loan funding.</p>
+							<a href="service2.html" class="btn btn-primary">More informartions</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="etude-technico.jpg" alt="Card Image">
+						<div class="card-body">
+							<p class="card-title">Mobilisation de ressources et financements</p>
+							<p class="card-text">Examination of technology's financial and economic feasibility.</p>
+							<a href="service3.html" class="btn btn-primary">More informartions</a>
+						</div>
+					</div>
+					<div class="card">
+						<img src="etude-technico.jpg" alt="Card Image">
+						<div class="card-body">
+
+							<p class="card-title">Optimisation fiscale et avantages</p>
+							<p class="card-text">Examination of technology's financial and economic feasibility.</p>
+							<a href="service4.html" class="btn btn-primary">More informartions</a>
+						</div>
+					</div>
+
+
+					<div class="card">
+						<img src="etude-technico.jpg" alt="Card Image">
+						<div class="card-body">
+
+							<p class="card-title">Contentieux et litiges
+							</p>
+							<p class="card-text">Examination of technology's financial and economic feasibility.</p>
+							<a href="service5.html" class="btn">More informartions</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="about">
+
+
+				<h2 id="about">A PROPOS DE NOUS</h2>
+				<p>En tant que fournisseur de services d'investissement, notre objectif est d'aider nos clients à
+					prendre des décisions éclairées en matière d'investissement. Nous offrons une gamme complète de
+					services pour les aider à maximiser leur potentiel de croissance et à atteindre leurs objectifs
+					d'investissement.</p>
+				<p>Notre offre de services comprend des services de prospection et de stratégie pour aider nos clients à
+					identifier les opportunités d'investissement les plus prometteuses. Nous fournissons également une
+					assistance à la formalisation des démarches de création d'activité et de société, ce qui permet à
+					nos clients de se concentrer sur la croissance de leur entreprise. Nous mobilisons également des
+					ressources et des financements pour aider nos clients à financer leurs projets et à atteindre leurs
+					objectifs de croissance.</p>
+				<p>En outre, nous aidons nos clients à trouver des partenaires potentiels et à les mettre en relation,
+					ce qui leur permet de saisir les opportunités de croissance offertes par des partenariats
+					stratégiques. Grâce à notre expertise, notre expérience et notre engagement envers nos clients, nous
+					sommes en mesure de fournir des services d'investissement sur mesure pour répondre à leurs besoins
+					spécifiques.</p>
+				<p>Nous croyons que notre réussite dépend de celle de nos clients, c'est pourquoi nous mettons tout en
+					œuvre pour les aider à atteindre leurs objectifs d'investissement. Nous sommes convaincus que notre
+					approche personnalisée et notre engagement envers l'excellence nous distinguent des autres
+					fournisseurs de services d'investissement. Notre objectif est de fournir des services de haute
+					qualité et des résultats tangibles pour aider nos clients à réussir dans le paysage d'investissement
+					complexe d'aujourd'hui.</p>
+			</div>
+
+
+			<h2 id="about">Ce que nos clients disent de nous</h2>
+			<div class="gallery">
+				<a onclick="prevImage()" class="prev-button"><img style="width: 30px; height: 35px;"
+						src="prev-removebg-preview.png" alt="Previous Image"></a>
+				<img id="gallery-image" src="tweet5.png" alt="Gallery Image">
+				<a onclick="nextImage()" class="next-button"><img style="width: 30px; height: 35px;" src="next.png"
+						alt="Next Image"></a>
+			</div>
+
+
+
+			</div>
+
+
+			<form>
+				<h2 id="contact">Contact Us</h2>
+				<p> Feel free to send us any thing </p>
+				<div class="container">
+					<div class="form-group">
+						<label for="premiere_balise">Choisissez un service :</label>
+						<select class="form-control" id="premiere_balise" name="premiere_balise"
+							onchange="afficherBalise()">
+							<option value="">Service</option>
+							<option value="option1">Prospection et stratégie</option>
+							<option value="option2">Démarches</option>
+							<option value="option3">Mobilisation de ressources et financements</option>
+							<option value="option4">Optimisation fiscale et avantages</option>
+							<option value="option5">Contentieux et litiges</option>
+						</select>
+					</div>
+						<div class="form-group" id="balise_select_supplementaire"></div>
+
+						<script>
+							function afficherBalise() {
+								var premiereBalise = document.getElementById("premiere_balise");
+								var valeurOption = premiereBalise.options[premiereBalise.selectedIndex].value;
+								var baliseSelectSupplementaire = document.getElementById("balise_select_supplementaire");
+
+								// Effacer le contenu précédent de la balise
+								baliseSelectSupplementaire.innerHTML = "";
+
+								// Ajouter une nouvelle balise select en fonction de l'option sélectionnée
+								
+								switch (valeurOption) {
+									case "option1":
+									baliseSelectSupplementaire.innerHTML = "<label for='deuxieme_balise'>Sous service :</label><select  name='deuxieme_balise' id='deuxieme_balise'><option value=''>--Choisissez une option--</option><option value='option1_1'>Conseils aux choix d’investissement.</option><option value='option1_2'>Analyse comparatif d’investissement</option><option value='option1_3'>Etudes de Marché</option><option value='option1_4'>Etudes technico-économiques</option><option value='option1_5'>Etudes Technique de production</option><option value='option1_6'>Etudes de coûts</option><option value='option1_7'>Assistance à la création d’entreprise</option><option value='option1_8'>Rédaction des statuts et clauses contractuelles</option></select>";
+										break;
+									case "option2":
+									baliseSelectSupplementaire.innerHTML = "<label for='deuxieme_balise'>Sous service</label><select name='deuxieme_balise' id='deuxieme_balise'><option value=''>--Choisissez une option--</option><option value='option2_1'>Assistance à la formalisation des démarches de création d’activité et de société</option><option value='option2_2'>Dénomination recherche d’antériorité</option><option value='option2_3'>Accomplissement des formalités du RC</option><option value='option2_4'>Accomplissement des formalités de déclaration fiscale</option></select>";
+										break;
+									case "option3":
+									baliseSelectSupplementaire.innerHTML = "<label for='deuxieme_balise'>Sous service</label><select name='deuxieme_balise' id='deuxieme_balise'><option value=''>--Choisissez une option--</option><option value='option3_1'>Assistance à l’obtention des avantages AAPI / ANDI</option><option value='option3_2'>Formalisation de Demande d’attestation d’enregistrement d’investissement </option><option value='option3_3'>Formalisation des listes des biens et services éligibles aux avantages. </option><option value='option3_4'>Assistance et accompagnement à la formalisation des dossier d’obtention de concession de terrain industriel </option></select>";break;
+									case "option4":
+									baliseSelectSupplementaire.innerHTML = "<label for='deuxieme_balise'>Sous service</label><select name='deuxieme_balise' id='deuxieme_balise'><option value=''>--Choisissez une option--</option><option value='option3_1'>Assistance à l’obtention des avantages AAPI / ANDI</option><option value='option3_2'>Formalisation de Demande d’attestation d’enregistrement d’investissement </option><option value='option3_3'>Formalisation des listes des biens et services éligibles aux avantages. </option><option value='option3_4'>Assistance et accompagnement à la formalisation des dossier <br> d’obtention de concession de terrain industriel </option></select>";break;
+									case "option5":
+									baliseSelectSupplementaire.innerHTML = "<label for='deuxieme_balise'>Sous service</label><select name='deuxieme_balise' id='deuxieme_balise'><option value=''>--Choisissez une option--</option>value='option2_4'>contentieux commerciale </option><option value='option2_1'>  Contentieux fiscale </option><option value='option2_2'>Contentieux foncier </option><option value='option2_3'>Recherche de partenariat</option><option value='option2_4'>Recherche de partenariat</option></select>";break;
+									default:
+										baliseSelectSupplementaire.innerHTML = "";
+										break;
+								}
+							}
+							</script>
+
+
+
+					<div class="form-group">
+						<label for="name">Name:</label>
+						<input  type="text" id="name" name="name" class="form-control" required placeholder="Name">
+					</div>
+
+					<div class="form-group">
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" class="form-control" required
+							placeholder="Example@domaine.com">
+					</div>
+
+
+
+					<div class="form-group">
+						<label for="message">Message:</label>
+						<textarea id="message" name="message" class="form-control" rows="3" required
+							placeholder="Je voudrai faire un rendez vous le plus tout possible"></textarea>
+
+
+
+
+					</div>
+					<a href="formsubmission.html" style="width: 200px;" class="btn">Envoyé</a>
+
+			</form>
+			<br>
+
+
+
+		</main>
+	</center>
+
+	<footer class="footer-distributed">
+
+		<div class="footer-left">
+			<div class="left">
+				<p class="footer-links">
+
+
+					<a href="sersaramine5@gmail.com">Consiels2i@yahoo.fr</a> <br>
+					<a href="+213771655214">0771655214</a>
+				<p class="footer-company-name">S2i © 2023</p>
+			</div>
+			<div class="right">
+
+				<h3><img src="logo.png" alt="S2ilogo" width="135px" height="75px" style="margin-right:10px;"></h3>
+
+
+
+				<div class="footer-icons">
+
+					<a href="https://www.facebook.com"><img src="Facebook_logo_(square).png" alt="linkdin" width="35px"
+							height="35px"></a>
+					<a href="https://fr.linkedin.com"><img src="linkdin.png" alt="linkdin" width="35px"
+							height="35px"></a>
+
+				</div>
+			</div>
+
+
+		</div>
+
+	</footer>
+
+
+</body>
+
+</html>
